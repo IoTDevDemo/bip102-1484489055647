@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bip102
+  host: bip102
+  disk_quota: 1024M
+  services:
+  - bip102-cloudantNoSQLDB
+  - bip102-iotf-service
